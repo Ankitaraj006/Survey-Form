@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Travelo : Survey Form</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script src="https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js">
+</script>
+<h1 align="center" id="title">Travelo Survey Form</h1>
+<div id="form-layout">
+  <h2 id="description"> Opinion for upcoming trips!!!</h2>
+  <form id="survey-form" class="labels">
+    <div>
+      <label for="name" id="name-label">*Name    :</label>
+      <input autofocus type="name"  id="name" name="name" placeholder="Enter your name" required>
+    </div>
+    <div>
+      <label for="email" id="email-label">*Email :</label>
+      <input autofocus type="email"  id="email" name="email" placeholder="Enter your email" required>
+    </div>
+    <div id="age">
+      <label for="age" id="age-label">*Age     :</label>
+      <input autofocus type="text" name="age" placeholder="Enter your age" required>
+    </div>
+    
+    <div>
+      <label for="question1" id="name-label">Which country you would like to travel?:</label>
+      <input autofocus type="name" name="country" placeholder="Select your country" required>
+    </div>
+    
+    <div>
+      <label for="question2" id="number-label">How many country you have visited through travelo? :</label>
+      <input autofocus type="number"  id="number" name="number" placeholder="select the number" min="1" max="196" required>
+    </div>
+    <div id="email">
+      <label for="email">Enter your E-mail Id:</label>
+      <input autofocus type="email" name="email" placeholder="Enter your email" required>
+    </div>
+    <div id="labels">
+      <label for="dropdown">Liked our services?:</label>
+      <select id="dropdown">
+  <option value="Absolutely!">Absolutely!</option>
+  <option value="Liked it">Liked it</option>
+  <option value="May be">May be</option>
+  <option value="Nop">Nop</option>
+</select>
+  </div>
+    <div>
+      <label for="gender">Gender:</label>
+        <input type="radio" name="gender" value="male"> Male<br>
+        <input type="radio" name="gender" value="female"> Female<br>
+        <input type="radio" name="gender" value="male">Other<br>
+     
+    </div>
+    <div>
+      <label for="preferences">Countries you want to visit:</label>
+       <input type="checkbox" name="London" value="London">London<br>
+       <input type="checkbox" name="Sydney" value="Sydney">Sydney<br>
+       <input type="checkbox" name="Canada" value="Canada">Canada<br>
+       <input type="checkbox" name="Egypt" value="Egypt">Egypt<br>
+      <input type="checkbox" name="Mexico" value="Mexico">Mexico<br>
+    </div>
+    <div>
+      <label for="comment">Your Views</label>
+             <textarea rows="4" cols="25" name="comment" form="usrform">
+Enter text here...</textarea>
+    </div>
+<div>
+  <button id="submit" type="submit">Submit</button>
+    </div>
+
+</div>
+<small><p class= "text-center">Coded by <a href= "https://codepen.io/ankitaraj_06/" target="_blank">Ankita Raj </a></p></small>
+<!-- partial -->
+  <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script>
+</body>
+</html>

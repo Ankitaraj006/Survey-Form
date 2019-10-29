@@ -1,0 +1,28 @@
+h1{
+  color:black;
+  }
+html{
+  background-color:powderblue;
+}
+#form-layout{
+  background-color:white;
+ text-align:center;
+  padding;10px;
+  padding-top:10px;
+  width:100%
+ 
+}
+.labels{
+  padding:10px;
+  width:60%;
+  text-align:right;
+ 
+}
+
+label {
+  margin-right: 40px;
+}
+
+div {
+  margin-bottom: 20px;
+}
